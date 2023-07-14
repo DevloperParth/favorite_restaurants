@@ -37,6 +37,8 @@ gem "bootsnap", require: false
 # gem "rack-cors"
 gem 'devise' # for authentication
 gem 'jwt' # for token based authentication
+gem 'dotenv-rails' # for managing environment variables
+gem 'rest-client' # for making HTTP requests to Google Places API
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
